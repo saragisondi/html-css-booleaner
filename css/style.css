@@ -45,12 +45,16 @@ main{
 }
 
 
-
-section.first{
+section{
   font-size: 15px;
   text-align: justify;
   text-justify: inter-word;
 }
+
+section.second{
+  margin-top: 30px;
+}
+
 
 #autore{
   color: #34b0e7;
