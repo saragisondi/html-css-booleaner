@@ -21,7 +21,6 @@ header h1{
 
 main{
   margin-top: 650px;
-  font-weight: 550;
 }
 
 .logo{
@@ -49,13 +48,37 @@ section{
   font-size: 15px;
   text-align: justify;
   text-justify: inter-word;
+  font-weight: 550;
+
 }
 
-section.second{
+section.second, .third{
   margin-top: 30px;
 }
 
+table{
+  border-spacing: 0px;
+  width: 100%;
 
+}
+
+th{
+  width: 20px;
+  color: white;
+}
+
+
+thead{
+  background-color: #20a9e5;
+}
+
+tfoot{
+  background-color: #b1e5f2;
+}
+
+#first-row{
+  background-color: #b1e5f2;
+}
 #autore{
   color: #34b0e7;
   
