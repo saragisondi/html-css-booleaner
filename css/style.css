@@ -43,33 +43,31 @@ main{
   font-size: 10px;
 }
 
-
 section{
   font-size: 15px;
   text-align: justify;
   text-justify: inter-word;
   font-weight: 550;
-
-}
-
-section.second, .third{
   margin-top: 30px;
 }
+
+.testo-evidenziato{
+  background-color: yellow;
+}
+
 
 table{
   border-spacing: 0px;
   width: 100%;
+}
 
+thead{
+  background-color: #20a9e5;
 }
 
 th{
   width: 20px;
   color: white;
-}
-
-
-thead{
-  background-color: #20a9e5;
 }
 
 tfoot{
@@ -84,6 +82,37 @@ tfoot{
   
 }
 
-#testo-evidenziato{
-  background-color: yellow;
+.foto-footer{
+margin-top: 25px;
+color: white;
+font-size: 15px;
+
 }
+
+.foto-monitor{
+background-image: url("../img/monitor.jpg");
+background-size: cover;
+width: 200px;
+height: 150px;
+margin-bottom: 10px;
+margin-top: 10px;
+padding-left: 10px;
+padding-top: 10px;
+
+}
+
+.foto-graph{
+  background-image: url("../img/graph.jpg");
+  background-size: cover;
+width: 200px;
+height: 150px;
+margin-bottom: 10px;
+margin-top: 10px;
+padding-left: 10px;
+padding-top: 10px;
+}
+
+#suggerimenti{
+  color: #838383;
+}
+
