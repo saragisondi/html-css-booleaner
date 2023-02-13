@@ -1,0 +1,62 @@
+*{
+  margin: 0;;
+}
+
+header{
+  background-color: #4EA0FF;
+  background-image:url("../img/pattern.png");
+  background-size: 400px;
+  background-position:top;
+  height: 100px;
+}
+
+header h1{
+  padding: 20px;
+  font-size: 50px;
+  padding-left: 0;
+  padding-bottom: 5px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+main{
+  margin-top: 650px;
+  font-weight: 550;
+}
+
+.logo{
+  width: 200px;
+  text-align: left;
+  padding-top: 50px;
+  ;
+}
+
+.sottotitolo{
+  color: #7d7d7d;
+
+}
+
+.img-bernes-lee{
+  padding-top: 30px;
+}
+
+.descrizione-foto{
+  font-size: 10px;
+}
+
+
+
+section.first{
+  font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#autore{
+  color: #34b0e7;
+  
+}
+
+#testo-evidenziato{
+  background-color: yellow;
+}
