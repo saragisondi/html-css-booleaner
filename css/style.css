@@ -1,118 +1,109 @@
+/* GENERAL */
 *{
-  margin: 0;;
+  margin: 0;
+  padding: 0;
 }
 
+img{
+  max-width: 100%;
+}
+
+.hightlight{
+  background-color: rgb(238, 238, 107);
+}
+
+
+
+/* HEADER */
 header{
   background-color: #4EA0FF;
-  background-image:url("../img/pattern.png");
-  background-size: 400px;
-  background-position:top;
-  height: 100px;
-}
-
-header h1{
-  padding: 20px;
-  font-size: 50px;
-  padding-left: 0;
-  padding-bottom: 5px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-main{
-  margin-top: 650px;
-}
-
-.logo{
-  width: 200px;
-  text-align: left;
+  background-image: url('../img/pattern.png');
+  background-size: 30%;
+  padding-left: 20px;
   padding-top: 50px;
-  ;
+  padding-bottom: 5px;
 }
 
-.sottotitolo{
-  color: #7d7d7d;
-
+header .logo{
+  width: 200px;
 }
 
-.img-bernes-lee{
-  padding-top: 30px;
+/* MAIN */
+main, footer{
+  padding: 20px;
 }
 
-.descrizione-foto{
-  font-size: 10px;
+main .dida{
+  font-size: .9rem;
+  color: #7F8080;
+  margin-bottom: 10px;
 }
 
-section{
-  font-size: 15px;
-  text-align: justify;
-  text-justify: inter-word;
-  font-weight: 550;
-  margin-top: 30px;
+main .dida p{
+  padding-bottom: 5px;
 }
 
-.testo-evidenziato{
-  background-color: yellow;
+main .dida .name{
+  color: #4EA0FF;
 }
 
-
-table{
-  border-spacing: 0px;
-  width: 100%;
+main .dida .date{
+  font-size: .8rem;
 }
 
-thead{
-  background-color: #20a9e5;
+main .photo .caption{
+  font-size: .8rem;
 }
 
-th{
-  width: 20px;
+main .main-text{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main ul{
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+main table{
+  text-align: left;
+  border-collapse: collapse;
+}
+
+main table thead{
+  background-color: #23A9E5;
   color: white;
 }
 
-tfoot{
-  background-color: #b1e5f2;
+
+main table .text{
+  width: 50%;
+}
+main table .odd{
+  background-color: #B1E5F2;
 }
 
-#first-row{
-  background-color: #b1e5f2;
-}
-#autore{
-  color: #34b0e7;
-  
-}
 
-.foto-footer{
-margin-top: 25px;
-color: white;
-font-size: 15px;
 
+/* FOOTER */
+
+footer h4{
+  color: grey;
 }
 
-.foto-monitor{
-background-image: url("../img/monitor.jpg");
-background-size: cover;
-width: 200px;
-height: 150px;
-margin-bottom: 10px;
-margin-top: 10px;
-padding-left: 10px;
-padding-top: 10px;
-
+footer .image-box{
+  background-color: red;
+  color: white;
+  padding: 20px;
+  width: 250px;
+  height: 150px;
+  margin-bottom: 20px;
 }
 
-.foto-graph{
-  background-image: url("../img/graph.jpg");
-  background-size: cover;
-width: 200px;
-height: 150px;
-margin-bottom: 10px;
-margin-top: 10px;
-padding-left: 10px;
-padding-top: 10px;
+#monitor{
+  background-image: url('../img/monitor.jpg');
 }
 
-#suggerimenti{
-  color: #838383;
+#graph{
+  background-image: url('../img/graph.jpg');
 }
-
